@@ -2549,9 +2549,9 @@ get_cpu() {
     cpu=${cpu/Atom/凌动}
     cpu=${cpu/Celeron/赛扬}
     cpu=${cpu/Core/酷睿}
-    cpu=${cpu/Ianium/安腾}
+    cpu=${cpu/Itanium/安腾}
     cpu=${cpu/Pentium/奔腾}
-    cpu=${cpu//至强}
+    cpu=${cpu/Xeon/至强}
 
     cpu=${cpu/Athlon/速龙}
     cpu=${cpu/Duron/钻龙}
@@ -2574,7 +2574,14 @@ get_cpu() {
     cpu=${cpu/U/低压}   
     cpu=${cpu/X/旗舰}
     cpu=${cpu/Y/超低压}
-
+    cpu=${cpu/E/嵌入式}
+    cpu=${cpu/B/焊接}
+    cpu=${cpu/Y/超低压}
+    cpu=${cpu/S/特别款}
+    cpu=${cpu/T/低功耗}
+    cpu=${cpu/M/移动型}
+    cpu=${cpu/R/高性能核芯显卡}
+    
     cpu=${cpu//1/壹}
     cpu=${cpu//2/贰}
     cpu=${cpu//3/叁}
